@@ -17,3 +17,7 @@ gulp.task('sass', function() {
         .pipe(sass().on('Error', sass.logError))
         .pipe(gulp.dest('style'))
 })
+
+gulp.task('watch', function() {
+    return gulp.watch('src/style/*.scss', gulp.series(sass, minify-css))
+})

@@ -1,1 +1,15 @@
-body{margin:0;padding:0;box-sizing:border-box}body .container{background:'#F1F1F1';width:100%;height:100vh}body .container h1{font-size:56px;color:'#8100FF';transition:.3s}body .container h1:hover{transform:rotateY(20deg);color:'#000'}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  body .container {
+    background: '#F1F1F1';
+    width: 100%;
+    height: 100vh; }
+    body .container h1 {
+      font-size: 56px;
+      color: '#8100FF';
+      transition: .3s; }
+      body .container h1:hover {
+        transform: rotateY(20deg);
+        color: '#000'; }
