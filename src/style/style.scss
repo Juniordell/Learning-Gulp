@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .container {
+        background: '#F1F1F1';
+        width: 100%;
+        height: 100vh;
+
+        h1 {
+            font-size: 56px;
+            color: '#8100FF';
+            transition: .3s;
+
+            &:hover {
+                transform: rotateY(20deg);
+                color: '#000';
+            }
+        }
+    }
+}
